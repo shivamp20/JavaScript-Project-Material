@@ -68,7 +68,7 @@ function issueFunction() {
     var status = issues[i].status;
 
     issuesList.innerHTML +=
-      '<div class="well">' +
+      '<div class="jumbotron" id="secondbox">' +
       '<h6>Issue ID' +
       id +
       '</h6>' +
